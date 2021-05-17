@@ -10,7 +10,7 @@
 
 int main(){
 
-//#define FLASH_CACHE
+#define FLASH_CACHE
    const int n = 1000;
    const int batchsize =1;
    std::cout << "batchsize=" << batchsize << std::endl;
